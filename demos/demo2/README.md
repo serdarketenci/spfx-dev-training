@@ -1,6 +1,6 @@
 # SharePoint Framework (SPFx) Weather Web Part (demo2)
 
-![Weather Web Part displayed in SharePoint Workbench](./assets/preview.png)
+![Weather Web Part displayed in SharePoint Workbench](./assets/preview.PNG)
 
 Web Part built using the SharePoint Framework showing current weather for the specified location.
 
