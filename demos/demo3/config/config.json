@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "trending-in-this-site-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/trendingInThisSite/TrendingInThisSiteWebPart.js",
+          "manifest": "./src/webparts/trendingInThisSite/TrendingInThisSiteWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TrendingInThisSiteWebPartStrings": "lib/webparts/trendingInThisSite/loc/{locale}.js"
+  }
+}
