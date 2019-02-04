@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://serdarketenci.sharepoint.com/sites/pnp_portal/SitePages/Home.aspx",
+      "customActions": {
+        "af98bc95-f7c8-4b74-98ec-23b399080410": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "toastrApplicationCustomizer": {
+      "pageUrl": "https://serdarketenci.sharepoint.com/sites/pnp_portal/SitePages/Home.aspx",
+      "customActions": {
+        "af98bc95-f7c8-4b74-98ec-23b399080410": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

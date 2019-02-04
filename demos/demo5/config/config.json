@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "toastr-application-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/toastrApplicationCustomizer/ToastrApplicationCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/toastrApplicationCustomizer/ToastrApplicationCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ToastrApplicationCustomizerApplicationCustomizerStrings": "lib/extensions/toastrApplicationCustomizer/loc/{locale}.js"
+  }
+}
