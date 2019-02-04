@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://serdarketenci.sharepoint.com/sites/pnp_portal/Lists/Weather/AllItems.aspx",
+      "fieldCustomizers": {
+        "Location": {
+          "id": "c11b30cc-775f-4760-9273-3f09fa714aaa",
+          "properties": {
+            "units": "metric"
+          }
+        }
+      }
+    },
+    "weatherFieldCustomizer": {
+      "pageUrl": "https://serdarketenci.sharepoint.com/sites/pnp_portal/Lists/Weather/AllItems.aspx",
+      "fieldCustomizers": {
+        "Location": {
+          "id": "c11b30cc-775f-4760-9273-3f09fa714aaa",
+          "properties": {
+            "units": "metric"
+          }
+        }
+      }
+    }
+  }
+}

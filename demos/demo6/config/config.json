@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "weather-field-customizer-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/weatherFieldCustomizer/WeatherFieldCustomizerFieldCustomizer.js",
+          "manifest": "./src/extensions/weatherFieldCustomizer/WeatherFieldCustomizerFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WeatherFieldCustomizerFieldCustomizerStrings": "lib/extensions/weatherFieldCustomizer/loc/{locale}.js"
+  }
+}
