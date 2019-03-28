@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-org-chart-client-side-solution",
+    "id": "21a740f4-a5f6-4410-92c3-18a1f94ea87f",
+    "version": "1.0.0.0",
+    "features": [
+      {
+        "title": "provision-employees-list-client-side-solution",
+        "description": "provision-employees-list-client-side-solution",
+        "id": "ce98fa61-31a7-41de-98d9-90feb2c5dc96",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ],
+          "elementFiles": [
+            "schema.xml"
+          ]
+        }
+      }
+    ],
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/react-org-chart.sppkg"
+  }
+}

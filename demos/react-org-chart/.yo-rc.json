@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "react-org-chart",
+    "libraryId": "21a740f4-a5f6-4410-92c3-18a1f94ea87f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
